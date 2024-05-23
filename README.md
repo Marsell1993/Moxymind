@@ -14,20 +14,17 @@ Clone the Repository:
 
 Open a terminal and run the following command to clone the repository:
 
-bash
-Kopírovať kód
+bash:
 --git clone https://github.com/Marsell1993/MoxymindRepo.git
 Navigate into the project directory:
 
 bash:
-
 --cd your-repository
 Install Dependencies:
 
 Run the following command to install the project dependencies:
 
 bash:
-
 --npm install
 Running Tests
 You can run the Cypress tests in two ways: via the Cypress Test Runner (GUI) or in headless mode. Here are the instructions for both methods:
@@ -37,7 +34,6 @@ Running Tests via Cypress Test Runner (GUI):
 Open Cypress Test Runner using the following command:
 
 bash:
-
 --npx cypress open
 This will open the Cypress Test Runner window. From here, you can select and run the tests.
 
@@ -46,7 +42,6 @@ Running Tests in Headless Mode:
 To run the tests in headless mode (without the GUI), use the following command:
 
 bash:
-
 --npx cypress run
 Running Tests in Visual Studio Code (VSC)
 To run tests directly within VSC, you can use the integrated terminal:
